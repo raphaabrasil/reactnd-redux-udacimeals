@@ -42,7 +42,7 @@ const initialCalendarState = {
   },
 }
 
-function calendar( state = initialState, action ) {
+function calendar( state = initialCalendarState, action ) {
   const { day, recipe, meal } = action
 
   switch( action.type ) {
